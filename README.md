@@ -65,3 +65,12 @@ El proyecto implementa una separación de responsabilidades estricta para asegur
     # En terminal 2
     dotnet run --project src/TechLogistics.Worker
     ```
+
+## 🧪 Estrategia de Testing
+El proyecto cuenta con una suite de pruebas robusta:
+* Pruebas de Dominio: Validan la generación de Tracking IDs y lógica de estados.
+* Pruebas de Controlador: Verifican que la API coordine correctamente el repositorio y el sistema de mensajes ante una solicitud.
+Ejecutar todas las pruebas con:
+```bash
+    dotnet test
+```
